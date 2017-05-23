@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ByVictorrr™ - Developer - Contact</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/hover.css" media="all">>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/hover.js"></script>
+
+<script>
+  new WOW().init();
+      </script>
+
+
+
+       <script type="text/javascript">
+
+$(document).ready(function(){
+  var nav = $('.nav');
+  var banner =$('.nav-placeholder');
+  var pos = nav.position();
+
+  $(window).scroll(function(){
+
+
+    var windowpos = $(window).scrollTop();
+
+    if(windowpos >= banner.outerHeight()){
+        nav.addClass('fixedTop');
+    }
+    else{
+      nav.removeClass('fixedTop');
+    }
+
+  });
+
+
+
+});
+
+      </script>
+
+
+
+
+
+</head>
+<body>
+<div id="container">
+  
+<div class = "header">
+    <div style="position:relative; top: 0; left: 0;">
+        <img src="images/HEADER_BG.png" id= "headerBG">
+           <div class="wow bounce">
+              <img src="images/ByVictorrr.png" class = "ByVictorrr">  
+                  </div>
+                    <a href="login.html">
+                      <img src="images/Login.png" id = "login"></a> 
+    
+    <img src="images/line.png" id = "line">
+
+    <a href="create.html">
+    <img src="images/create.png" id = "create">
+  </a>
+    <img src="images/Graphic_Artist.png" id="GraphicArtist"> 
+    
+</div>
+
+
+
+
+
+<div class="nav-placeholder">
+<div class="nav">
+ 
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="prices.html">Prices</a></li>
+   <li><a href="contact.html">Contact</a> </li>
+  <li><a href="hireme.html">Hire Me</a></li>
+
+</ul>
+
+</div>
+</div>
+
+        
+        
+       
+
+
+<div class ="contactPage">
+  <img src="images/contactPage.png" id="contactPage">
+
+</div>
+
+
+    
+       
+</div>
+     //end of the website
+     
+
+     
+</body>
+</html>

@@ -1,0 +1,66 @@
+.loginlayout{
+	
+width: 1200px;
+	height: 400px;
+position:relative;
+background-image: url("../images/summer.png");
+background-repeat: no-repeat;
+}
+
+#textlogin{
+position:absolute;
+top: 50px;
+left: 500px;
+
+
+}
+
+#loginUser{
+
+position:absolute;
+top: 200px;
+left: 550px;
+
+}
+#loginPassword{
+
+position:absolute;
+top: 250px;
+left: 550px;
+
+}
+#loginSubmit{
+
+position:absolute;
+top: 300px;
+left: 550px;
+
+}
+#UserName{
+
+position:absolute;
+top: 190px;
+left: 400px;
+
+
+}
+
+#Password{
+
+
+position:absolute;
+top: 240px;
+left: 400px;
+
+
+}
+#loginEmail{
+
+position:absolute;
+top: 235px;
+left: 550px;
+
+}
+
+
+

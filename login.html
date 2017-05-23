@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ByVictorrr™ - Login</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/login&create.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/hover.css" media="all">>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/hover.js"></script>
+
+<script>
+  new WOW().init();
+      </script>
+
+
+
+       <script type="text/javascript">
+
+$(document).ready(function(){
+  var nav = $('.nav');
+  var banner =$('.nav-placeholder');
+  var pos = nav.position();
+
+  $(window).scroll(function(){
+
+
+    var windowpos = $(window).scrollTop();
+
+    if(windowpos >= banner.outerHeight()){
+        nav.addClass('fixedTop');
+    }
+    else{
+      nav.removeClass('fixedTop');
+    }
+
+  });
+
+
+
+});
+
+      </script>
+
+
+
+      
+     <script type="text/javascript">
+    var imagecount = 1;
+    var total = 3;
+    
+    function slide(x){
+      var Image = document.getElementById('img');
+      imagecount = imagecount + x;
+      if(imagecount > total){ 
+      imagecount = 1;
+      }
+      if(imagecount < 1){
+        imagecount = total;
+      }
+      Image.src = "images/img"+imagecount + ".png";
+      
+    }
+    
+   window.setInterval(function slideA(){
+     var Image = document.getElementById('img');
+     imagecount = imagecount + 1;
+      if(imagecount > total){ 
+      imagecount = 1;
+      }
+      if(imagecount < 1){
+        imagecount = total;
+      }
+      Image.src = "images/img"+imagecount + ".png";
+     
+   },5000);
+
+    </script>
+
+
+
+</head>
+<body>
+<div id="container">
+  
+<div class = "header">
+    <div style="position:relative; top: 0; left: 0;">
+        <img src="images/HEADER_BG.png" id= "headerBG">
+           <div class="wow bounce">
+              <img src="images/ByVictorrr.png" class = "ByVictorrr">  
+                  </div>
+                    <a href="login.html">
+                      <img src="images/Login.png" id = "login"></a> 
+    
+    <img src="images/line.png" id = "line">
+
+    <a href="create.html">
+    <img src="images/create.png" id = "create">
+  </a>
+    <img src="images/Graphic_Artist.png" id="GraphicArtist"> 
+    
+</div>
+
+
+
+
+
+<div class="nav-placeholder">
+<div class="nav">
+ 
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="prices.html">Prices</a></li>
+   <li><a href="contact.html">Contact</a> </li>
+  <li><a href="hireme.html">Hire Me</a></li>
+
+</ul>
+
+</div>
+</div>
+
+        
+      
+
+
+   
+      <div id="login-form">
+<form method="post">
+<table align="center" width="30%" border="0">
+<tr>
+<td><input type="text" name="email" placeholder="Your Email" required /></td>
+</tr>
+<tr>
+<td><input type="password" name="pass" placeholder="Your Password" required /></td>
+</tr>
+<tr>
+<td><button type="submit" name="btn-login">Sign In</button></td>
+</tr>
+<tr>
+<td><a href="create.html">Sign Up Here</a></td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+
+       <div class="Contact">
+      <img src="images/ContactBG.png" id="ContactBG">
+      <img src="images/e40_follow.png" id="e40follow"/>
+      <img src="images/7_days__24_hours.png" id="hours">
+
+      <a href="mailto:BV@ByVictorrr">
+      <img src="images/BV@ByVictorrr.com.png" onmouseover="this.src='images/BV@ByVictorrr.comblue.png'" onmouseout="this.src='images/BV@ByVictorrr.com.png'" id="email">
+
+</a>
+<a href="skype:ByVictorrr">
+      <img src="images/ByVictorrrSkype.png" onmouseover="this.src='images/ByVictorrrblue.png'" onmouseout="this.src='images/ByVictorrrSkype.png'" onClick="skype()" id="Skype">
+</a>
+
+      <img src="images/location.png" id="SanCarlos"/>
+      <img src="images/Copyright.png" id="Copyright"/>
+
+      <a href="https://www.facebook.com/ByVictorrr-155266751225231/">
+       <img src="images/facebook_logo.png" onmouseover="this.src='images/facebookwhite.png'" onmouseout="this.src='images/facebook_logo.png'"id="facebookLogo"/>
+</a>
+       <a href="https://twitter.com/byvictorrr">
+       <img src="images/twitter_logo.png" onmouseover="this.src='images/twitterwhite.png'" onmouseout="this.src='images/twitter_logo.png'" id="twitterLogo"/>
+       </a>
+
+
+       <a href="https://www.instagram.com/byvictorrr/">
+       <img src="images/insta_logo.png" onmouseover="this.src='images/instachange.png'" onmouseout="images/his.src='insta_logo.png'"   id="instaLogo" >
+       </a>
+
+
+ <a href="https://github.com/byvictorrr">
+       <img src="images/github.png" onmouseover="this.src='images/githubwhite.png'" onmouseout="this.src='images/github.png'"   id="github" >
+       </a>
+
+
+
+
+       <img src="images/ContactsTitle.png" id="ContactTitle"/>
+       <img src="images/ContactIcons.png" id="ContactIcons"/>
+       
+       </div>
+       
+</div>
+     //end of the website
+     
+
+     
+</body>
+</html>

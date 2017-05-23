@@ -1,0 +1,614 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:black;
+	}
+	
+	
+	#container{
+	width: 1200px;
+	height:3000px;
+	padding: -1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #1a1a1a;
+	}
+	//start of header css
+	
+	.header {
+		height: 177px;
+		width: 1200px;
+	position: relative;
+	}
+	
+	.ByVictorrr{
+		position: absolute; 
+		top: 50px; 
+		left: 20px; 
+		 -webkit-transition: height 1s, width 1s;
+    -moz-transition: height 1s, width 1s;
+    transition: height 1s, width 1s;
+
+		z-index: 2;
+	}
+	
+	#GraphicArtist{
+	width: 152px;
+	height: 38px;
+	font-family: Noteworthy;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1736.11px;
+	transform: scale(1.044,1.06);
+	position: absolute; 
+		top: 80px; 
+		left: 400px;
+		z-index: 2;
+	
+	
+		
+	}
+	
+	
+	#create{
+		
+	width: 282px;
+	height: 45px;
+	position: absolute; 
+		top: 71px; 
+		left: 600px;
+		z-index: 2;
+	
+
+	}
+	
+	
+	#line{
+		position: absolute; 
+		top: 75px; 
+		left: 950px;
+		z-index: 2;
+	}
+	#login{
+	
+	position: absolute; 
+		top: 74px; 
+		left: 1000px;
+		z-index: 2;
+	
+		
+	}
+	
+	#headerBG{
+		position: relative; 
+		top: 1px; 
+		left: 0px;
+		z-index: 1;
+	}
+
+
+
+	.nav-placeholder{
+	width: 1200px;
+	margin: 0 0 40px 0;
+	height: 130px;
+	background-image: url("../images/BannerBG.png");
+
+
+	}
+	
+	.fixedTop{
+
+	top: 0;
+	position: fixed;
+
+}
+	
+	.nav{
+		z-index:  500;
+		background-image: url("../images/BannerBG.png");
+		opacity: .85;
+	}
+
+	
+	
+ul{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+ul li a{
+
+	text-decoration: none;
+	color: white;
+display:inline;
+
+}
+ul li{
+border: 1px solid white;
+	float: left;
+	line-height: 128px;
+	width: 238px;
+	text-align: center;
+	font-size: 35px;
+	font-family: fantasy;
+	
+}
+
+ul li:hover{
+
+	background-color: #3399cc;
+}
+.nav-placeholder  ul li {
+
+list-style-type: none;
+display: inline-block;
+
+}
+	
+	
+	.slider{
+		
+	width: 1200px;
+	height: 667px;
+	
+			top: 2px;
+		position:relative;
+		
+	}
+	.curryslider{
+		
+		width: 252px;
+	height: 138px;
+	position:absolute;
+	top: 300px;
+	left: 470px
+		
+	}
+	
+	.caritureslider{
+	width: 256px;
+	height: 140px;
+	position:absolute;
+	top: 300px;
+	left: 150px
+	}
+	
+	.introslider{
+		
+		width: 262px;
+	height: 139px;
+	position:absolute;
+	top: 300px;
+	left: 790px
+		
+		
+	}
+
+	
+	#leftarrow{
+		position: absolute;
+	left: 50px;
+	top: 300px;
+	width: 28px;
+	height: 63px;
+	
+	}
+	
+	
+	#rightarrow{
+		
+			position: absolute;
+	left: 1120px;
+	top: 300px;
+	width: 28px;
+	height: 63px;
+	
+	}
+	
+	#img{
+		width: 1200px;
+	height: 667px;
+	
+			top: -40px;
+		position: relative;
+	}
+	
+	
+	
+	.Featured{
+		width: 1200px;
+	height: 436px;
+	top: -30px;
+	
+	position: relative;
+		
+	}
+	
+	
+	#e40FeaturedPic{
+		top: 75px;
+		left: 30px;
+		position:absolute;
+		width: 338px;
+	height: 198px;
+		
+	}
+	
+	
+	#JessicaAlba{
+		
+		width: 338px;
+	height: 198px;
+	
+	top: 75px;
+		left: 425px;
+		position:absolute;
+	}
+	#SkyFeatured{
+		
+		width: 338px;
+	height: 198px;
+		
+		position:absolute;
+		top: 75px;
+		left: 825px;
+	}
+	#FeaturedPicText{
+		
+		
+		font-family: PTSans;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1736.11px;
+	transform: scale(1.212,1.212);
+	left: 400px;
+		position: absolute;
+		
+		
+	}
+	
+	#leftarrowcircle{
+		left: 60px;
+		top : -20px;
+		position: absolute;
+		width: 70px;
+	height:70px;
+	}
+	
+	#rightarrowcircle{
+		
+		position: absolute;
+		width: 70px;
+	height: 70px;
+	top : -20px;
+	left: 1055px;
+		
+	}
+	
+	#e40download{
+		
+		
+		width: 82px;
+	height: 82px;
+		top : 295px;
+	left: 160px;
+		position: absolute;
+	}
+	
+	#jessicadownload{
+		
+		
+	width: 82px;
+	height: 82px;
+	top : 295px;
+	left: 560px;
+	position: absolute;
+	}
+	#skydownload{
+		
+	width: 82px;
+	height: 82px;
+	top : 295px;
+	left: 	960px;
+	position: absolute;
+	}
+		
+	
+	
+	#FeaturedPicBG{
+			width: 1200px;
+	height: 436px;
+	top: -37px;
+	position: absolute;
+		
+	}
+	.Backgrounds{
+		top: -68px;
+		width: 1200px;
+	height: 644px;
+	position: relative;
+	z-index: 499;
+	
+	}
+	
+	
+	.BackgroundsExample{
+
+		position: absolute;
+		top: 65px;
+		left: 87px;
+			z-index: 499;
+	}
+
+		
+	
+	.carituresExample{
+		
+	position: absolute;
+		top: 65px;
+		left: 500px;
+	z-index: 499;
+	}
+	
+	
+	.logoExample{
+	position: absolute;
+		top: 65px;
+		left: 920px;	
+		
+			z-index: 499;
+	}
+	
+	.introExample{
+		
+		position: absolute;
+		top: 385px;
+		left: 87px;	
+			z-index: 499;
+	}
+	
+	.animationExample{
+	
+	position: absolute;
+		top: 385px;
+		left: 500px;
+			z-index: 499;
+	}
+	.videoExample{
+		
+		
+		position: absolute;
+		top: 385px;
+		left: 920px;
+			z-index: 499;
+	}
+	
+	
+	
+	.BackgroundsCircle{
+		
+		width: 1200px;
+	height: 644px;
+	position: relative;
+
+	
+		
+	}
+	
+	.Payment{
+		position: relative;
+		width: 1200px;
+	height: 508px;
+	top: -9px;
+	
+		
+	}
+	
+	#WebIcon{
+		
+		position: absolute;
+		top: 83px;
+		left: 20px;
+		
+	}
+	#WebsiteParagraph{
+		
+		position: absolute;
+		left: 220px;
+		top: 83px;
+		
+	}
+	#WebsiteTitle{
+		
+		position: absolute;
+		left: 220px;
+		top: 30px;
+		
+	}
+	#cardIcon{
+		
+		position: absolute;
+		top: 83px;
+		left: 600px;
+	}
+	
+	#PaymentParagraph{
+		position: absolute;
+		left: 800px;
+		top: 83px;
+	}
+	
+	#PaymentTitle{
+		position: absolute;
+		left: 800px;
+		top: 30px;
+		
+	}
+	#PaymentBG{
+		
+		position: absolute;
+		width: 1200px;
+	height: 508px;
+	top: -70px;
+	}
+	
+	
+	.Contact{
+		position: relative;
+		width: 1200px;
+	height: 458px;
+		
+		top: -100px;
+	}
+	
+	
+	
+	#ContactIcons{
+		left: 50px;
+		top: 100px;
+		position:absolute;
+	}
+	#ContactTitle{
+		left: 500px;
+		top: 30px;
+		position: absolute;
+		
+	}
+	#instaLogo{
+		left: 860px;
+		top: 80px;
+		width: 77px;
+	height: 75px;
+	position: absolute;
+		
+	}
+	
+	#twitterLogo{
+		
+		left: 860px;
+		top: 180px;
+		width: 77px;
+	height: 75px;
+	position: absolute;
+	}
+	
+	
+	#facebookLogo{
+		left: 860px;
+		top: 280px;
+		width: 77px;
+	height: 75px;
+	position: absolute;
+	}
+	#github{
+
+        left: 975px;
+		top: 280px;
+		width: 77px;
+	height: 75px;
+	position: absolute;
+	}
+	
+	#Copyright{
+			left: 60px;
+		top: 390px;
+	
+	position: absolute;
+	}
+		
+	#SanCarlos{
+		left: 120px;
+		top: 110px;
+		position:absolute;
+		
+	}
+	#Skype{
+		left: 120px;
+		top: 170px;
+		position:absolute;
+	}
+	
+	#email{
+		
+		left: 120px;
+		top: 230px;
+		position:absolute;
+	}
+	
+	#hours{
+		left: 120px;
+		top: 295px;
+		position:absolute;
+	}
+	
+	#e40follow{
+		
+		left: 505px;
+		top: 100px;
+		position:absolute;
+		
+	}
+	#ContactBG{
+		position: absolute;
+		width: 1200px;
+	height: 458px;
+		
+	}
+.loginlayout{
+	top: 10px;
+width: 1200px;
+	height: 400px;
+position:relative;
+background-color: 003366;
+}
+
+#loginUser{
+
+position:absolute;
+top: 200px;
+left: 600px;
+
+}
+#loginPassword{
+
+position:absolute;
+top: 150px;
+left: 600px;
+
+}
+#loginSubmit{
+
+position:absolute;
+top: 200px;
+left: 600px;
+
+}
+
+#TheShow{
+	
+	width: 1200px;
+	height: 1500px;
+	
+			top: -55px;
+		position:relative;
+	
+}
+#portfolioBG{
+	
+			top: -100px;
+		position:absolute;
+	
+	
+}
+
+
+
+
+
+
+

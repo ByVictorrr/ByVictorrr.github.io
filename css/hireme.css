@@ -1,0 +1,32 @@
+.hireme{
+
+position: relative;
+height: 1300px;
+width: 1200px;
+top: -20px;
+
+}
+#hiremeBG{
+position: relative;
+height: 1300px;
+width: 1200px;
+
+}
+p{
+
+	z-index: 2;
+	text-decoration: none;
+	text-align: center;
+	top: 250px;
+position: absolute;
+font-size: 30px;
+font-family: fantasy;
+
+}
+p.paragraph{
+width: 900px;
+border: 1px circle black;
+left: 135px;
+top: 350px;
+
+}
